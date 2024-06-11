@@ -7,10 +7,10 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.png"]),
-	mimeTypes: {".png":"image/png"},
+	assets: new Set(["favicon.png","styles/app.css"]),
+	mimeTypes: {".png":"image/png",".css":"text/css"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.fj5KhCvs.js","app":"_app/immutable/entry/app.S36ER7c3.js","imports":["_app/immutable/entry/start.fj5KhCvs.js","_app/immutable/chunks/entry.BI3TkSPJ.js","_app/immutable/chunks/scheduler.B4houzoZ.js","_app/immutable/chunks/index.CV1gxh0y.js","_app/immutable/entry/app.S36ER7c3.js","_app/immutable/chunks/preload-helper.D6kgxu3v.js","_app/immutable/chunks/scheduler.B4houzoZ.js","_app/immutable/chunks/index.DlrXzjOH.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		client: {"start":"_app/immutable/entry/start.BrT1ujny.js","app":"_app/immutable/entry/app.BiY3JUMu.js","imports":["_app/immutable/entry/start.BrT1ujny.js","_app/immutable/chunks/entry.DWUzIa_z.js","_app/immutable/chunks/scheduler.B4houzoZ.js","_app/immutable/chunks/index.CV1gxh0y.js","_app/immutable/entry/app.BiY3JUMu.js","_app/immutable/chunks/preload-helper.D6kgxu3v.js","_app/immutable/chunks/scheduler.B4houzoZ.js","_app/immutable/chunks/index.DlrXzjOH.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
